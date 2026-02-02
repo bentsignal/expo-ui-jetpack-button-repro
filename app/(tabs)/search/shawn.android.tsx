@@ -22,15 +22,21 @@ export default function ShawnScreen() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          // With the page open, comment out the line below and save. Then uncomment it and save again.
-          // You should see the width take up the full width of the screen.
-          // Once you see this, navigate back to the search page, and click the link to Shawns page again.
-          // You should see the button no longer taking up the full width of the screen.
           width: "100%",
         }}
       >
         <ContextMenu.Trigger>
-          <Button style={{ flex: 1, marginHorizontal: 16, width: "100%" }}>
+          <Button
+            style={
+              {
+                // With the page open, uncomment the line below (width: "100%") and save.
+                // You should see the context menu & trigger button take up the full width of the screen.
+                // Once you see this, navigate back to the search page, and click the link to Shawns page again.
+                // You should see the button no longer taking up the full width of the screen.
+                // width: "100%",
+              }
+            }
+          >
             Friends
           </Button>
         </ContextMenu.Trigger>
