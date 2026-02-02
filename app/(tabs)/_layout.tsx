@@ -40,11 +40,7 @@ export default function TabLayout() {
         options={{
           title: "Search",
           tabBarIcon: ({ color }) => (
-            <IconSymbol
-              size={28}
-              name="photo.badge.magnifyingglass.fill"
-              color={color}
-            />
+            <IconSymbol size={28} name="magnifyingglass.fill" color={color} />
           ),
         }}
       />
